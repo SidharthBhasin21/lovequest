@@ -55,19 +55,19 @@ const maps = () => {
 export default maps;
 
 const styles = StyleSheet.create({
-  container: {
-    padding: wp(5),
-    width: wp(100),
-    height: hp(100),
-    paddingTop: hp(7),
-  },
-  scrollViewContent: {
-    paddingBottom: hp(9),
-  },
-  text: {
-    backgroundColor: "pink",
-    fontSize: 42,
-    marginTop: 20,
-    fontFamily: 'roboto',
-  },
+    container: {
+        paddingHorizontal: wp(5),
+        width: wp(100),
+        height: hp(100),
+        paddingTop: hp(7),
+    },
+    scrollViewContent: {
+        paddingBottom: hp(9),
+    },
+    text: {
+        backgroundColor: "pink",
+        fontSize: 42,
+        marginTop: 20,
+        fontFamily: 'roboto',
+    },
 });

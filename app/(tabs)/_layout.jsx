@@ -21,7 +21,7 @@ export default function TabLayout() {
             name="ticket"
             options={{
             headerShown: false,
-            tabBarIcon: ({ color,focused }) => <FontAwesome size={35} name="ticket" color={focused? '#FFF':"#E6E0FF"} />,
+            tabBarIcon: ({ color,focused }) => <FontAwesome size={32} name="ticket" color={focused? '#FFF':"#E6E0FF"} />,
             }}
         />
         <Tabs.Screen
@@ -33,7 +33,7 @@ export default function TabLayout() {
             headerRight: () => (
                 <Notification />
             ),
-            tabBarIcon: ({ color,focused }) => <FontAwesome size={35} name="map-marker" color={focused? '#FFF':"#E6E0FF"} />,
+            tabBarIcon: ({ color,focused }) => <FontAwesome size={32} name="map-marker" color={focused? '#FFF':"#E6E0FF"} />,
 
             }}
         />
@@ -42,7 +42,7 @@ export default function TabLayout() {
             options={{
             title: '',
             headerShown: false,
-            tabBarIcon: ({ color,focused }) => <FontAwesome size={35} name="heart" color={focused? '#FFF':"#E6E0FF"} />,
+            tabBarIcon: ({ color,focused }) => <FontAwesome size={32} name="heart" color={focused? '#FFF':"#E6E0FF"} />,
             }}
         />
         <Tabs.Screen
@@ -50,7 +50,7 @@ export default function TabLayout() {
             options={{
             title: '',
             headerShown: false,
-            tabBarIcon: ({ color,focused }) => <FontAwesome size={35} name="comment" color={focused? '#FFF':"#E6E0FF"} />,
+            tabBarIcon: ({ color,focused }) => <FontAwesome size={32} name="comment" color={focused? '#FFF':"#E6E0FF"} />,
             }}
         />
         <Tabs.Screen
@@ -58,7 +58,7 @@ export default function TabLayout() {
             options={{
             title: '',
             headerShown: false,
-            tabBarIcon: ({ color,focused }) => <FontAwesome size={35} name="user" color={focused? '#FFF':"#E6E0FF"} />,
+            tabBarIcon: ({ color,focused }) => <FontAwesome size={32} name="user" color={focused? '#FFF':"#E6E0FF"} />,
             }}
         />
         </Tabs>
